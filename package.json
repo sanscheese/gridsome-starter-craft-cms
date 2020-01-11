@@ -1,0 +1,13 @@
+{
+  "name": "gridsome-starter-craft-cms",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "@bhws/gridsome-source-craft-graphql": "^0.0.11"
+  }
+}
