@@ -16,7 +16,7 @@ query {
 
 <script>
 export default {
-  computed () {
+  computed: {
     craftEndpoint: () => process.env.GRIDSOME_CRAFT_GRAPHQL_ENDPOINT || false
   },
   components: {
